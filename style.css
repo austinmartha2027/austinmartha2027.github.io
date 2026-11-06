@@ -1,3 +1,7 @@
 body{
     background-color:grey;
 }
+
+.mainbackground{
+    background-image: url(Pix/handsrings.jpg);
+}
