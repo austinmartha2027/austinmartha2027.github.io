@@ -1,10 +1,28 @@
-body{
-    background-color:grey;
+#mainbody{
+    background-color:white;
+    
+    text-align:center;
+    font-family: cursive;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 
 #bg{
-    /*background-image: url(Pix/handsrings.jpg);*/
-    background-color:black;
+    background-color:white;
+    
     background-size:cover;
     background-repeat:no-repeat;
+    margin:0%;
+    width:100%;
+    height:50%;
+    color:#888888;
+
+}
+#img{
+    width:100%;
+    height: 600px;
+}
+#nav{
+    text-align: center;
+    justify-content: center;
 }
