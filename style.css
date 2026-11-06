@@ -1,10 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
 #mainbody{
-    background-color:white;
-    
+    background-color:lightblue;
+    animation-name: intro;
+    animation-duration: 2s;
     text-align:center;
-    font-family: cursive;
+    font-family: "Tangerine", sans-serif;
+    font-size: 36pt;
     background-size:cover;
     background-repeat:no-repeat;
+}
+.nav-item{
+    font-size:xx-large;
+}
+#img-container{
+    width:100%;
+    height:100%;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@keyframes intro {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 #bg{
@@ -20,7 +46,11 @@
 }
 #img{
     width:100%;
-    height: 600px;
+    height: 20%;
+}
+#prof-img{
+    max-width:300px;
+    max-height:400px;
 }
 #galimg{
     max-height: 100%;
@@ -31,4 +61,47 @@
 #nav{
     text-align: center;
     justify-content: center;
+    font-weight:bold;
+}
+#text{
+    font-size: 54pt;
+    font-weight: bold;
+    color:black;
+    font-family:Tangerine;
+    white-space:nowrap;
+}
+#bigtext{
+    font-size: 104pt;
+    /*font-weight: bold;*/
+    color:black;
+    font-family:Tangerine;
+    /*font-family:"Lavishly Yours", cursive;*/
+    /*font-family: "Fleur De Leah", cursive;*/
+    white-space:nowrap;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 40%);
+}
+
+#topline{
+    margin-top:10px;
+    margin-bottom:0px;
+    
+    height:2px;
+    background-color: black;
+    opacity:75%;
+}
+#bottomline{
+    margin-top:0px;
+    margin-bottom:10px;
+    
+    height:2px;
+    background-color: black;
+    opacity:75%;
+}
+.nav{
+    background-color:white;
 }
