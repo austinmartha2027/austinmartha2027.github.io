@@ -22,6 +22,12 @@
     width:100%;
     height: 600px;
 }
+#galimg{
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
 #nav{
     text-align: center;
     justify-content: center;
