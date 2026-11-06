@@ -2,6 +2,9 @@ body{
     background-color:grey;
 }
 
-.mainbackground{
-    background-image: url(Pix/handsrings.jpg);
+#bg{
+    /*background-image: url(Pix/handsrings.jpg);*/
+    background-color:black;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
